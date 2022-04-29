@@ -1,0 +1,56 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+    height:4%;
+    left: 10px;
+    top: 0px;
+    margin: 1rem -6px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+.left{
+    font-weight: 1000;
+    margin-left:1rem;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+.gradient{
+    height:2.5rem;
+    width:2.5rem;
+    background: linear-gradient(42.28deg, #FF0000 33.91%, #7329C6 98.31%);
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+/* .left > *{
+    font-weight: 1000;
+} */
+.right{
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right > *{
+    margin-left: 0.8rem;
+}
+.username{
+    height:1.5rem;
+    width:1.5rem;
+    background: gray;
+    border-radius: 50%;
+}
+.user{
+    font-weight: 800;
+}
+.icons{
+    margin-left: 2rem;
+    color: gray;
+}
+.icons > *{
+    margin-left:0.8rem;
+}

@@ -1,0 +1,31 @@
+.projects{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0.45rem;
+    width: 3.5rem;
+    color: gray;
+}
+.classroom{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0.45rem;
+    color: gray;
+}
+.permissions{
+    display: flex;
+    margin-bottom: 15px;
+    background-color: #F1D8D8;
+    padding: 0.5rem 0.20rem ;
+    border-left: 6px solid red;
+    border-radius: 0px;
+    color: red;
+}
+.permissions > *{
+    margin-right: 10px;
+}
+.classroom > *{
+    margin-right: 10px;
+}
+.projects > *{
+    margin-right: 10px;
+}
