@@ -1,3 +1,38 @@
-.divider{
-    margin-top: 100px;
+.line{
+    margin-top:4.5rem;
+}
+.buttons{
+    display:flex;
+    position:absolute;
+    top:7.8rem;
+    color: red;
+
+}
+.approval{
+    color:gray;
+    display: flex;
+    align-items: center;
+}
+.approval > *{
+    margin-right: 0.5rem;
+}
+.buttons > *{
+    margin-right: 25px;
+}
+.permission{
+    border-bottom : 4px solid red;
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+}
+.permission > *{
+    margin-right: 0.5rem;
+    margin-bottom:0.3rem;
+}
+.vertical{
+    border-left: 1px solid gray;
+    height: 32px;
+    position: absolute;
+    top:0.05px;
+    left:9.2rem;
 }
