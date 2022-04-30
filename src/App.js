@@ -1,9 +1,25 @@
-import Page1 from "./pages/page1/Page1";
+
+import Navbar from "./components/navbar/Navbar";
+import Sidebar from "./components/sidebar/Sidebar";
+import MainComp from "./components/mainComp/MainComp";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-        <Page1 style={{height:"100px"}}/>
-    </div>
+    <Router>
+      <Navbar/>
+      <div className="app">
+        <Sidebar/>
+        <Switch>
+          {/* <Route exact path = "/">
+            <MainComp/>
+          </Route>   */}
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

@@ -5,24 +5,29 @@ import DashboardOutlinedIcon from '@mui/icons-material/DashboardOutlined';
 import BusinessCenterOutlinedIcon from '@mui/icons-material/BusinessCenterOutlined';
 import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined';
 function Sidebar() {
+  
   return (
-    <Box bgcolor = "#FCFBFF" flex = {.95} p= {2} sx={{
-        height : "100%"
-    }}>
-            <div className='projects'>
-                <DashboardOutlinedIcon/>
-                <span>Projects</span>
-            </div>
-            <div className = "classroom">
-                <BusinessCenterOutlinedIcon/>
-                <span>Classrooms</span>
-            </div>
-            <div className ="permissions">
-                <SecurityOutlinedIcon/>
-                <span>Permissions</span>
-            </div>
+    <div className='sidebar'>
+            <button className  = "parent">
+              <div className='listItem'>
+                  <DashboardOutlinedIcon/>
+                  <span>Projects</span>
+              </div>
+            </button>
+            <button className = "parent">
+              <div className = "listItem">
+                  <BusinessCenterOutlinedIcon/>
+                  <span>Classrooms</span>
+              </div>
+            </button>
+            <button className = "parent">
+              <div className ="listItem">
+                  <SecurityOutlinedIcon/>
+                  <span>Permissions</span>
+              </div>
+            </button>
 
-    </Box>
+    </div>
   )
 }
 

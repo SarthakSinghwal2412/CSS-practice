@@ -1,31 +1,40 @@
-.projects{
+.sidebar{
+    background-color: gray;
+    flex : 1;
+}
+.listItem{
     display: flex;
     margin-bottom: 10px;
     padding: 0.45rem;
     width: 3.5rem;
-    color: gray;
+    color: rgb(163, 160, 160);
 }
-.classroom{
+/* .listItem{
     display: flex;
     margin-bottom: 10px;
     padding: 0.45rem;
     color: gray;
 }
-.permissions{
+.listItem{
     display: flex;
     margin-bottom: 15px;
-    background-color: #F1D8D8;
     padding: 0.5rem 0.20rem ;
-    border-left: 6px solid red;
-    border-radius: 0px;
-    color: red;
+    color: left;
+} */
+.parent{
+    border:none;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
 }
-.permissions > *{
+
+.listItem > *{
     margin-right: 10px;
 }
-.classroom > *{
-    margin-right: 10px;
-}
-.projects > *{
-    margin-right: 10px;
-}
+.listItem:hover{
+    cursor:pointer;
+    background-color: #F1D8D8;
+    border-left: 4px solid red;
+    color:red;
+    width:16.7rem;
+}  

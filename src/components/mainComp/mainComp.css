@@ -1,3 +1,6 @@
+.mainComp{
+    flex : 4;
+}
 .line{
     margin-top:4.5rem;
 }
@@ -15,6 +18,10 @@
 }
 .approval > *{
     margin-right: 0.5rem;
+}
+.table{
+    margin-top: 5rem;
+    margin-right : 3rem;
 }
 .buttons > *{
     margin-right: 25px;
@@ -35,4 +42,15 @@
     position: absolute;
     top:0.05px;
     left:9.2rem;
+}
+.smallIcons{
+    margin-top: 1.85rem;
+    margin-left:1.5rem;
+}
+.upperBtn{
+    margin-left : 3rem;
+    display: flex;
+}
+.smallIcons > *{
+    margin-left: 1.2rem;
 }
